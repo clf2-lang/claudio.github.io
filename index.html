@@ -8,7 +8,7 @@
       content="Página de perfil profissional de Cláudio Lucas, com informações sobre habilidades, experiência e contato."
     />
 
-    <meta property="og:title" content="Perfil Profissional - Cláudio Lucas" />
+    <meta property="og:title" content="Perfil Profissional - Cláudio Lucas"/>
     <meta property="og:image" content="imagem/foto.jpeg" />
     <meta
       property="og:description"
@@ -16,115 +16,59 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Cláudio Lucas | Portfólio ADS</title>
-    <style type="text/tailwindcss">
+    <style type="text/tailwindcss">          
       .section-title {
-        @apply flex flex-col gap-1 p-8 border border-slate-100 sm:gap-6 sm:py-4;
-      }
+                @apply flex flex-col gap-1 p-8 border border-slate-100 sm:gap-6 sm:py-4;
+            }
       .li-caixa {
-        @apply flex items-center justify-center rounded-lg bg-sky-800 px-5 py-3 font-medium text-white;
+        @apply flex items-center justify-center rounded-lg bg-gray-700 px-5 py-3 font-medium text-white;
       }
+        
+      
+      
     </style>
   </head>
-
+  
   <body class="bg-slate-50 text-slate-900">
+   
     <div class="max-w-5xl mx-auto px-4 py-8 md:py-12 flex flex-col">
-      <header
-        class="flex flex-col sm:flex-row sm:items-center gap-1 p-8 border border-slate-100 sm:gap-6 sm:py-4"
-      >
-        <div
-          class="w-50 h-50 bg-slate-200 mx-auto rounded-full border-4 border-slate-50 shadow-lg overflow-hidden"
-        >
-          <img
-            class="w-full h-full object-cover"
-            src="imagem\foto.jpeg"
-            alt="foto"
-          />
+      <header class="flex flex-col sm:flex-row sm:items-center gap-1 border border-slate-100 sm:gap-6 sm:py-4">
+        <div class="w-50 h-50 bg-slate-200 mx-auto rounded-full border-4 border-slate-50 shadow-lg overflow-hidden">
+                 <img class="w-full h-full object-cover" src="imagem\foto.jpeg" alt="foto"/>
+            </div>
+            
+            <div class="flex-1 text-center md:text-left flex flex-col justify-center h-full pt-2 grid-flow-row">
+                <h1 class="text-3xl md:text-5xl font-bold text-slate-900 tracking-tight">Cláudio Lucas de Farias</h1>
+                <p class="text-balance md:text-2xl text-slate-500 font-medium mt-3">Estudante de ADS | Desenvolvedor em formação | Programação e tecnologia</p>
+                <p class="font-medium text-gray-500 gap-2 pt-3">IFPE – Campus Palmares</p>
+                <p class="font-medium text-gray-500 gap-2 pt-3">3º período de Análise e Desenvolvimento de Sistemas.</p>
+                
+                <nav class="mt-5 flex justify-center gap-6 p-2 sm:p-8 md:justify-start sm:flex-row sm:items-center sm:gap-6 sm:py-1">
+                    <a href="https://github.com/clf2-lang" class="px-5 py-2.5 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors inline-flex items-center gap-2 pt-2">
+                      <img src="imagem\git-hub-logo.png" alt="GitHub" class="w-5 h-5"/>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/claudio-lucas-de-farias-7b3a8a19b/" class="px-5 py-2.5 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors inline-flex items-center gap-2 pt-2">
+                      <img src="imagem\icone-linkedin-ronde-noire.png" alt="LinkedIn" class="w-5 h-5"/>
+                        LinkedIn
+                    </a>
+                    <a href="mailto:claudio.lucas31@gmail.com" class="px-5 py-2.5 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors inline-flex items-center gap-2 pt-2">
+                      <img src="imagem\email-icon-design-digital-space-graphic-free-png.webp" alt="E-mail" class="w-5 h-5"/>
+                        Email
+                    </a>
+                </nav>
         </div>
-
-        <div
-          class="flex-1 text-center md:text-left flex flex-col justify-center h-full pt-2 grid-flow-row"
-        >
-          <h1
-            class="text-3xl md:text-5xl font-bold text-slate-900 tracking-tight"
-          >
-            Cláudio Lucas de Farias
-          </h1>
-          <p class="text-balance md:text-2xl text-slate-500 font-medium mt-3">
-            Estudante de ADS | Desenvolvedor em formação | Programação e
-            tecnologia
-          </p>
-          <p class="font-medium text-gray-500 gap-2 pt-3">
-            IFPE – Campus Palmares
-          </p>
-          <p class="font-medium text-gray-500 gap-2">
-            3º período de Análise e Desenvolvimento de Sistemas.
-          </p>
-
-          <nav
-            class="mt-5 flex justify-center gap-6 md:justify-start sm:flex-row sm:items-center sm:gap-6 sm:py-1"
-          >
-            <a
-              href="https://github.com/clf2-lang"
-              class="px-5 py-2.5 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors inline-flex items-center gap-2 pt-2"
-            >
-              <img src="imagem\git-hub-logo.png" alt="GitHub" class="w-5 h-5" />
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/claudio-lucas-de-farias-7b3a8a19b/"
-              class="px-5 py-2.5 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors inline-flex items-center gap-2 pt-2"
-            >
-              <img
-                src="imagem\icone-linkedin-ronde-noire.png"
-                alt="LinkedIn"
-                class="w-5 h-5"
-              />
-              LinkedIn
-            </a>
-            <a
-              href="mailto:claudio.lucas31@gmail.com"
-              class="px-5 py-2.5 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors inline-flex items-center gap-2 pt-2"
-            >
-              <img
-                src="imagem\email-icon-design-digital-space-graphic-free-png.webp"
-                alt="E-mail"
-                class="w-5 h-5"
-              />
-              Email
-            </a>
-          </nav>
-        </div>
-      </header>
+      </header>    
       <main class="flex flex-col gap-8 p-8 border border-slate-100">
-        <section class="section-title">
+        <section class=section-title>
           <h2 class="text-2xl font-bold text-slate-900">Sobre mim</h2>
-          <p class="text-slate-700 text-left">
-            Olá! Sou estudante do 3º período de Análise e Desenvolvimento de
-            Sistemas no IFPE – Campus Palmares.
-          </p>
-          <p class="text-slate-700 text-left">
-            Minha trajetória na tecnologia começou também através da experiência
-            profissional, trabalhando com revenda de software, suporte a
-            clientes e certificação digital. Essa experiência me aproximou dos
-            sistemas e, principalmente, dos desafios que os usuários encontram
-            no dia a dia.
-          </p>
-          <p class="text-slate-700 text-left">
-            Na faculdade, venho aprofundando meus conhecimentos em programação e
-            desenvolvimento de sistemas. Paralelamente, busco aprender por meio
-            de cursos e projetos próprios, com estudos em Python, Java,
-            desenvolvimento web e fundamentos de cibersegurança.
-          </p>
-          <p class="text-slate-700 text-left">
-            Estou em constante aprendizado e utilizo este espaço para apresentar
-            minha evolução, meus projetos e conhecimentos adquiridos ao longo da
-            minha formação em tecnologia.
-          </p>
-        </section>
+          <p class="text-slate-700 text-left ">Olá! Sou estudante do 3º período de Análise e Desenvolvimento de Sistemas no IFPE – Campus Palmares.</p>
+          <p class="text-slate-700 text-left">Minha trajetória na tecnologia começou também através da experiência profissional, trabalhando com revenda de software, suporte a clientes e certificação digital. Essa experiência me aproximou dos sistemas e, principalmente, dos desafios que os usuários encontram no dia a dia.</p>
+          <p class="text-slate-700 text-left">Na faculdade, venho aprofundando meus conhecimentos em programação e desenvolvimento de sistemas. Paralelamente, busco aprender por meio de cursos e projetos próprios, com estudos em Python, Java, desenvolvimento web e fundamentos de cibersegurança.</p>
+          <p class="text-slate-700 text-left">Estou em constante aprendizado e utilizo este espaço para apresentar minha evolução, meus projetos e conhecimentos adquiridos ao longo da minha formação em tecnologia.</p>
+        </section>  
         <section class="section-title">
-          <h2 class="text-2xl font-bold text-slate-900">
-            Experiência profissional
-          </h2>
+          <h2 class="text-2xl font-bold text-slate-900">Experiência profissional</h2>
           <ul class="list-disc list-inside text-slate-700">
             <li class="mb-2">Revenda de software Compufour</li>
             <li class="mb-2">Suporte aos clientes</li>
@@ -134,15 +78,11 @@
         <section class="section-title">
           <h2 class="text-2xl font-bold text-slate-900">Formação Acadêmica</h2>
           <ul class="list-disc list-inside text-slate-700">
-            <li>
-              Análise e Desenvolvimento de Sistemas (IFPE – Campus Palmares)
-            </li>
+            <li>Análise e Desenvolvimento de Sistemas (IFPE – Campus Palmares)</li>
           </ul>
         </section>
         <section class="section-title">
-          <h2 class="text-2xl font-bold text-slate-900">
-            Cursos e formação complementar
-          </h2>
+          <h2 class="text-2xl font-bold text-slate-900">Cursos e formação complementar</h2>
           <ul class="list-disc list-inside text-slate-700">
             <li>Python – Gustavo Guanabara, até Mundo 3</li>
             <li>Java Básico – Loiane Groner</li>
@@ -150,11 +90,9 @@
             <li>Hacker do Bem – Básico</li>
           </ul>
         </section>
-        <section class="section-title">
-          <h2 class="text-2xl font-bold text-slate-900">
-            Habilidades Técnicas
-          </h2>
-          <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 p-8">
+          <section class="section-title">
+          <h2 class="text-2xl font-bold text-slate-900">Habilidades Técnicas</h2>
+          <ul class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-2 p-2 sm:p-8">
             <li class="li-caixa">Python</li>
             <li class="li-caixa">Java</li>
             <li class="li-caixa">HTML/CSS</li>
@@ -164,31 +102,18 @@
             <li class="li-caixa">Cibersegurança</li>
             <li class="li-caixa">Suporte técnico</li>
           </ul>
-        </section>
+        </section>    
         <section class="section-title">
           <h2 class="text-2xl font-bold text-slate-900">Projeto de extensão</h2>
-          <p class="text-slate-700 text-left">
-            Projeto de extensão desenvolvido no IFPE – Campus Palmares, voltado
-            à educação da comunidade sobre segurança digital, golpes, proteção
-            de contas, privacidade e uso consciente da internet.
-          </p>
-          <p class="text-slate-700 text-left">
-            Formato: Material didático digital interativo.
-          </p>
-          <a
-            href="https://heyzine.com/flip-book/25ce3128ca.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="px-5 py-2.5 bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white rounded-lg inline-32 gap-2 pt-2 p-8"
-            >Ver projeto</a
-          >
+          <p class="text-slate-700 text-left">Projeto de extensão desenvolvido no IFPE – Campus Palmares, voltado à educação da comunidade sobre segurança digital, golpes, proteção de contas, privacidade e uso consciente da internet.</p>
+          <p class="text-slate-700 text-left">Formato: Material didático digital interativo.</p>
+            <a href="https://heyzine.com/flip-book/25ce3128ca.html" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 text-white rounded-lg inline-32 gap-2 pt-2 p-8">Ver projeto</a>
+             
         </section>
       </main>
     </div>
-    <footer class="text-slate-700 text-center p-8 border border-slate-100">
-      <p>
-        &copy; 2026 Cláudio Lucas. Construído com <strong>Tailwind CSS</strong>.
-      </p>
+    <footer class="text-slate-700 text-center p-8 border border-slate-100 ">
+      <p>&copy; 2026 Cláudio Lucas. Construído com <strong>Tailwind CSS</strong>.</p>
     </footer>
   </body>
 </html>
